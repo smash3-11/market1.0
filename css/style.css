@@ -1,0 +1,188 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.title {
+	margin-top: 30px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.title button {
+	cursor: pointer;
+	font-weight: bold;
+	background: none;
+	padding: 17px 45px;
+	border-radius: 10px;
+	font-size: 18px;
+	border: 1px solid black;
+	margin: 5px;
+}
+
+.item-top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+}
+.item-top img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.sup-title {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	width: 100%;
+}
+
+.item-bottom {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 30px;
+	color: white;
+	background: #000;
+}
+h2 {
+	margin-bottom: 10px;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.description {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+
+	color: rgba(255, 255, 255, 0.56);
+}
+
+.sub-title {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	margin-top: 15px;
+}
+.title-item {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.box-item button {
+	background: #ffffff;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	width: 100%;
+	height: 55px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.box-item {
+	border: 1px solid black;
+}
+.box {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 350px);
+	justify-content: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	gap: 20px;
+	margin-top: 60px;
+}
+b {
+  color: white;
+  cursor: pointer;
+}
+
+.active-btn {
+  background-color: rgb(63, 63, 202) !important;
+  color: white;
+}
+
+/*  */
+/* Add the following CSS rules to your existing styles */
+
+.cart {
+	margin: 30px 0 30px 0;
+	text-align: center;
+  }
+  
+  .cart h2 {
+	font-size: 36px;
+	margin-bottom: 10px;
+  }
+  
+  .cart-items {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+	margin: 20px 0 20px 0 ;
+  }
+  
+  .cart-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #f2f2f2;
+	padding: 10px;
+	border-radius: 5px;
+	width: 200px;
+  }
+  
+  .cart-item-image {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	margin-bottom: 10px;
+  }
+  
+  .cart-item-title {
+	font-size: 16px;
+	margin-bottom: 5px;
+	text-align: center;
+  }
+  
+  .cart-item-quantity {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+  }
+  
+  .cart-item-quantity-label {
+	font-weight: bold;
+  }
+  
+  .cart-item-quantity-input {
+	width: 40px;
+	text-align: center;
+  }
+  
+  .cart-item-remove-btn {
+	background-color: #ff0000;
+	color: #fff;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	margin-top: 10px;
+  }
+  
